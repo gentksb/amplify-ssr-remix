@@ -8,5 +8,6 @@ cp -r ./build/server ./.amplify-hosting/compute/default/build
 cp -r server.js ./.amplify-hosting/compute/default/server.js
 cp -r ./build/client ./.amplify-hosting/static
 cp -r ./node_modules ./.amplify-hosting/compute/default/node_modules
+cp -r bin/package.json ./.amplify-hosting/compute/default
 
 cp deploy-manifest.json ./.amplify-hosting/deploy-manifest.json
